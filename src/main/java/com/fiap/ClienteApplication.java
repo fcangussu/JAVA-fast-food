@@ -20,4 +20,17 @@ public class ClienteApplication {
         //EntityManagerFactory emf = Persistence.createEntityManagerFactory("FastFoodUnit");
         //emf.close();
     }
+
+@Deprecated
+public void testSonar() {
+     System.out.println(" sonar teste valida Deprecated  ...");
+
+}
+
+public void testSonar2() {
+     int a=2/0;
+
+}
+
+    
 }
